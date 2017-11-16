@@ -1,21 +1,18 @@
 {
-  "name": "heroku-frontend",
+  "name": "sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Study Project, developed in collaboration with students of Technopark",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "srart": "script.js"
+    "start": "node server/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DarkDesire/heroku-frontend.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DarkDesire/heroku-frontend/issues"
-  },
-  "homepage": "https://github.com/DarkDesire/heroku-frontend#readme"
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "uuid": "^3.1.0"
+  }
 }
